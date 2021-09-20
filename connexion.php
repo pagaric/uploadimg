@@ -3,7 +3,7 @@
 function dbConnect()
 {
     // Déclaration des variables 
-    $serverName = 'localhost';
+    $serverName = 'localhost:3316';
     $dbName = 'uploadimg';
     $userName = 'root';
     $pwd = '';
