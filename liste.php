@@ -26,12 +26,6 @@
         echo "<a href='apercu.php?id=".$img['img_id']."'>".$img['img_nom']."</a><br>";
     }
     ?>
-    <h3>Test affichage dans une page HTML</h3>
-    <?php
-    foreach($retour as $img){
-        echo "<a href='afficherImage.php?id=".$img['img_id']."'>".$img['img_nom']."</a><br>";
-    }
-    ?>
 
     <p><a href="index.php">Accueil</a></p>
 </body>
