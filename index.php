@@ -17,7 +17,7 @@
     }
     ?>
 
-    <h3>Envoie d'une image</h3>
+    <h3>Upload d'une image</h3>
 
     <form enctype="multipart/form-data" action="#" method="post">
         <input type="hidden" name="MAX_FILE_SIZE" value="250000" />
