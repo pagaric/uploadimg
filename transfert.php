@@ -24,6 +24,8 @@ function transfert()
 
         require_once("connexion.php");
         $img_blob = file_get_contents($_FILES['fic']['tmp_name']);
+
+               
         $dbConn = dbConnect();
         $img_desc = 'Description';
 
